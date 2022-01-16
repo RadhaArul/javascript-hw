@@ -1,0 +1,23 @@
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.container {
+  position: relative;
+  min-height: 90vh;
+}
+.Bishbosh-box {
+  width: 75%;
+  text-align: left;
+  background-color: rgba(30, 144, 255, 0.75);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+}
+.footersize {
+  position: absolute;
+  width: 100%;
+}
+.fgsize {
+  width: 50%;
+}

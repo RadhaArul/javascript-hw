@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Bish-Bosh2.0</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="text-primary text-center">Bish-Bosh 2.0</h1>
+      </header>
+      <div class="Bishbosh-box">
+        <p class="font-weight-bold">Bish-Bosh</p>
+        <p>
+          Bish Bosh is a group word game for children to teach them about
+          division. Players take turns to count incrementally, replacing any
+          number divisible by (for example) 3 with the word "Bish", and any
+          number divisible by 5 with the word "Bosh" and any number divisible by
+          both 3 and 5 with the word "Bish-Bosh".
+        </p>
+      </div>
+
+      <div class="form-group fgsize bg-warning">
+        <label for="bish-input">Enter the Bish Number:</label>
+        <input type="number" min="0" class="form-control" id="bish-input" />
+      </div>
+      <div class="form-group fgsize bg-success">
+        <label for="bosh-input">Enter the Bosh Number:</label>
+        <input type="number" min="0" class="form-control" id="bosh-input" />
+      </div>
+
+      <div class="form-group fgsize bg-primary">
+        <label for="loop-input"
+          >Enter a Number that you want to repeat until:</label
+        >
+        <input type="number" min="0" class="form-control" id="loop-input" />
+      </div>
+      <div class="form-group">
+        <button id="calculate" class="btn btn-primary" >Show</button>
+      </div>
+      <div class="form-group Bishbosh-box">
+        <p id="output">Output:</p>
+      </div>
+    </div>
+    <footer class="footersize">
+      <div class="mw-100 bg-primary p-3">
+        <p class="text-right pr-5 text-white">
+          Privacy Policy / Cookie policy / All rights reserved. Radha 2022
+        </p>
+      </div>
+    </footer>
+
+    <script src="bish-bosh.js"></script>
+  </body>
+</html>

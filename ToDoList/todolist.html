@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="todolist.css" />
+  </head>
+  <body>
+    <div>
+      <button id="btnnew">Create New List</button>
+      <span class="green box"></span>
+      <span class="pink box"></span>
+      <span class="yellow box"></span>
+      <span class="blue box"></span>
+    </div>
+    <div class="mainContainer">
+      <div class="container">
+        <div class="div1">
+          <input
+            class="inputitem"
+            type="text"
+            placeholder="Enter the Item"
+            name="item"
+          />
+          <button class="btnadd">ADD</button>
+        </div>
+        <div class="div2">
+          <ul class="ulist"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="todolist.js"></script>
+    <script src="ToDoListExtra.js"></script>
+  </body>
+</html>
